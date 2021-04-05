@@ -27,6 +27,7 @@ tint (255,this.visibility);
 var pos= this.body.position;
     imageMode(CENTER);
       image(this.image,pos.x,pos.y,this.width, this.height);
+  pop ();
 }
 
 
